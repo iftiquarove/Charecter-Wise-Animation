@@ -13,6 +13,7 @@
 		BC81D2B429BC944D009B4D26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC81D2B229BC944D009B4D26 /* Main.storyboard */; };
 		BC81D2B629BC944D009B4D26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC81D2B529BC944D009B4D26 /* Assets.xcassets */; };
 		BC81D2B929BC944D009B4D26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC81D2B729BC944D009B4D26 /* LaunchScreen.storyboard */; };
+		BC81D2C129BC948D009B4D26 /* SegmentedTextLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC81D2C029BC948D009B4D26 /* SegmentedTextLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BC81D2B529BC944D009B4D26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC81D2B829BC944D009B4D26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC81D2BA29BC944D009B4D26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC81D2C029BC948D009B4D26 /* SegmentedTextLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedTextLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +58,14 @@
 		BC81D2AB29BC944D009B4D26 /* CharecterWiseAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				BC81D2BA29BC944D009B4D26 /* Info.plist */,
 				BC81D2AC29BC944D009B4D26 /* AppDelegate.swift */,
 				BC81D2AE29BC944D009B4D26 /* SceneDelegate.swift */,
 				BC81D2B029BC944D009B4D26 /* ViewController.swift */,
+				BC81D2C029BC948D009B4D26 /* SegmentedTextLayer.swift */,
 				BC81D2B229BC944D009B4D26 /* Main.storyboard */,
-				BC81D2B529BC944D009B4D26 /* Assets.xcassets */,
 				BC81D2B729BC944D009B4D26 /* LaunchScreen.storyboard */,
-				BC81D2BA29BC944D009B4D26 /* Info.plist */,
+				BC81D2B529BC944D009B4D26 /* Assets.xcassets */,
 			);
 			path = CharecterWiseAnimation;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC81D2B129BC944D009B4D26 /* ViewController.swift in Sources */,
+				BC81D2C129BC948D009B4D26 /* SegmentedTextLayer.swift in Sources */,
 				BC81D2AD29BC944D009B4D26 /* AppDelegate.swift in Sources */,
 				BC81D2AF29BC944D009B4D26 /* SceneDelegate.swift in Sources */,
 			);
@@ -293,8 +297,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -321,8 +325,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
